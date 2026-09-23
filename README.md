@@ -1,1 +1,3 @@
 # Lista-de-tareas
+Para subir a Vercel me daba problemas...
+
