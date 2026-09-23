@@ -1,6 +1,7 @@
 function TaskItem({ tarea, tareas, setTareas }) {
   return (
-    <li className="flex items-center p-3 rounded-lg bg-slate-100 border border-gray-200">
+    // Lista
+    <li className="flex items-center p-3 rounded-lg bg-amber-200 border border-gray-200">
       <input
         type="checkbox"
         checked={tarea.completed}
@@ -12,7 +13,7 @@ function TaskItem({ tarea, tareas, setTareas }) {
             ),
           )
         }
-        className="mr-2 h-5 w-5 text-blue-600 cursor-pointer"
+        className="mr-1.5 h-5 w-5 text-blue-600 cursor-pointer"
       />
 
       <span

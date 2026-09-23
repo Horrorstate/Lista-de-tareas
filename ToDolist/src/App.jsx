@@ -25,8 +25,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-start pt-16 bg-linear-to-r from-violet-500 to-emerald-700">
-      <div className="bg-white shadow-lg border rounded-xl p-8 md:p-12 w-full max-w-md">
+    <div className="w-full h-60 bg-black">
+      <div className=" shadow-lg border rounded-xl p-8 md:p-12 w-full max-w-md">
         <Header />
 
         <TaskInput
